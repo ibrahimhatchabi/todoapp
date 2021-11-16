@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:todoapp/screens/home_screen.dart';
+import 'package:todoapp/screens/login_screen.dart';
 import 'package:todoapp/screens/main_layout.dart';
 import 'package:todoapp/screens/menu_screen.dart';
 
@@ -18,10 +19,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'TodoApp',
       theme: ThemeData(
-        primarySwatch: Colors.green,
+        primarySwatch: Colors.blue,
       ),
       // home: MenuScreen(),
-      home: MainLayout(),
+      home: LoginScreen(),
       debugShowCheckedModeBanner: false,
     );
   }

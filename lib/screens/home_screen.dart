@@ -9,7 +9,6 @@ import 'package:todoapp/models/task.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert' as convert;
 
-var tasksListURL = Uri.https('limitless-beyond-48111.herokuapp.com', '/tasks');
 
 Future<dynamic> _fetchTasks() {
   return http.get(tasksListURL);

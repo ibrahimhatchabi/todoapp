@@ -36,7 +36,7 @@ class _TaskItemState extends State<TaskItem> {
               width: 20,
               height: 20,
               decoration: BoxDecoration(
-                color: widget.task.category == Category.business
+                color: widget.task.category == "business"
                     ? businessIndicator
                     : personalIndicator,
                 shape: BoxShape.circle,
